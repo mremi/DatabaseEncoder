@@ -1,0 +1,21 @@
+{
+    "name": "mremi/database-encoder",
+    "type": "library",
+    "description": "A PHP5 library to fix database encoding",
+    "keywords": ["database", "encoding"],
+    "homepage": "https://github.com/mremi/DatabaseEncoder",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rémi Marseille",
+            "email": "marseille.remi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "psr/log": "~1.0"
+    },
+    "autoload": {
+        "psr-0": { "Mremi\\DatabaseEncoder": "src" }
+    }
+}
